@@ -1,0 +1,121 @@
+EXPOSED PARAMETERS CHEAT SHEET
+
+-All available Parameters and possible values for every effect-
+
+----UNITS----
+	= No Unit Specified / Float
+x	= Multiplier
+%	= Percent
+mB	= Millibel
+dB	= Decibel
+ms	= Millisecond
+s	= Second
+Hz	= Hertz
+octaves
+channels
+
+
+----EFFECTS----
+
+ALL MIXER GROUPS
+Pitch				(1.00 - 1000.00 %)
+
+ATTENUATION
+Volume				(-80.00 - 20.00 dB)
+
+SEND
+Send Level			(-80.00 - 0.00 dB)
+
+DUCK VOLUME
+Threshold			(-80.00 - 0.00 dB)
+Ratio				(20.00 - 1000.00 %)
+Attack Time			(0.00 - 10000.00 ms)
+Release Time		(0.00 - 10000.00 ms)
+Make-up Gain		(-80.00 - 40.00 dB)
+Knee				(0.00 - 50.00 dB)
+Sidechain Mix		(0.00 - 100.00 %)
+
+
+| THE EFFECTS BELOW CAN ALLOW WET MIXING -- NEW PARAM WILL APPEAR IF ENABLED |
+| TO ENABLE, RIGHT CLICK THE EFFECT NAME IN THE INSPECTOR, AND SELECT "ALLOW WET MIXING" |
+!! CAUSES HIGH MEMORY USAGE !!
+
+Wet					(-80.00 - 0.00 dB)
+
+LOWPASS
+Cutoff Freq			(10.00 - 22000.00 Hz)
+Resonance			(1.00 - 10.00)
+
+LOWPASS SIMPLE
+Cutoff Freq			(10.00 - 22000.00 Hz)
+
+HIGHPASS
+Cutoff Freq			(10.00 - 22000.00 Hz)
+Resonance			(1.00 - 10.00)
+
+HIGHPASS SIMPLE
+Cutoff Freq			(10.00 - 22000.00 Hz)
+
+ECHO
+Delay				(1.00 - 5000.00 ms)
+Decay				(0.00 - 100.00 %)
+Max Channels		(0.00 - 16.00 channels)
+Drymix				(0.00 - 100.00 %)
+Wetmix				(0.00 - 100.00 %)
+
+FLANGE
+Drymix				(0.00 - 100.00 %)
+Wetmix				(0.00 - 100.00 %)
+Depth				(0.01 - 1.00)
+Rate				(0.00 - 20.00 Hz)
+
+DISTORTION
+Level				(0.00 - 1.00)
+
+NORMALIZE
+Fade in Time		(0.00 - 20000.00 ms)
+Lowest Volume		(0.00 - 1.00)
+Maximum Amp			(0.00 - 100000.00 x)
+
+PARAM EQ
+Center Freq			(20.00 - 22000.00 Hz)
+Octave Range		(0.00 - 0.00 octaves)
+Frequency Gain		(0.05 - 3.00)
+
+PITCH SHIFTER
+Pitch				(0.50 - 2.00 x)
+FFT Size			(256.00 - 4096.00)
+Overlap				(1.00 - 32.00)
+Max Channels		(0.00 - 16.00 channels)
+
+CHORUS
+Drymix				(0.00 - 1.00)
+Wet mix Tap 1		(0.00 - 1.00)
+Wet mix Tap 2		(0.00 - 1.00)
+Wet mix Tap 3		(0.00 - 1.00)
+Delay				(0.00 - 100.00 ms)
+Rate				(0.00 - 20.00 Hz)
+Depth				(0.00 - 1.00)
+Feedback			(-1.00 - 1.00)
+
+COMPRESSOR
+Threshold			(-60.00 - 0.00 dB)
+Attack				(10.00 - 200.00 ms)
+Release				(20.00 - 1000.00 ms)
+Make-up Gain		(0.00 - 30.00 dB)
+
+SFX REVERB
+Dry Level			(-10000.00 - 0.00 mB)
+Room				(-10000.00 - 0.00 mB)
+Room HF				(-10000.00 - 0.00 mB)
+Decay Time			(0.10 - 20.00 s)
+Decay HF Ratio		(0.10 - 2.00 )
+Reflections			(-10000.00 - 1000.00 mB)
+Reflect Delay		(0.00 - 0.30)
+Reverb				(-10000.00 - 20000.00 mB)
+Reverb Delay		(0.00 - 0.10 s)
+Diffusion			(0.00 - 100.00 %)
+Density				(0.00 - 100.00 %)
+HF Reference		(20.00 - 20000.00 Hz)
+Room LF				(-10000.00 - 0.00 mB)
+LF Reference		(20.00 - 1000.00 Hz)
