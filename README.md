@@ -1,4 +1,4 @@
-# Audio Mixer Manager - Unity 2020
+# Audio Mixer Manager - Unity 2020 
 Small research project started in 2020 to test and create a versatile Audio / Music Manager using Unity's Audio Mixer to the fullest extent.
 
 -- Main Highlights --
